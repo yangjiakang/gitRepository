@@ -20,7 +20,7 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String login(@RequestParam("userName") String userName,@RequestParam("password") String password){
-        System.out.println("username:" + userName + ", password:" + password);
+        System.out.println("username111:" + userName + ", password:" + password);
         return "username:" + userName + ", password:" + password;
     }
 }
